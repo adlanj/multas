@@ -1,0 +1,3 @@
+module.exports=[54799,(a,b,c)=>{b.exports=a.x("crypto",()=>require("crypto"))},874,(a,b,c)=>{b.exports=a.x("buffer",()=>require("buffer"))},88947,(a,b,c)=>{b.exports=a.x("stream",()=>require("stream"))},81361,a=>{"use strict";var b=a.i(39812);a.i(81905);var c=a.i(84820),d=a.i(5145);async function e({children:a}){let e=await (0,d.getSession)();return e||(0,c.redirect)("/asesor"),(0,d.requireRole)(e,["asesor"])||(0,c.redirect)("/"),(0,b.jsx)(b.Fragment,{children:a})}a.s(["default",()=>e])}];
+
+//# sourceMappingURL=%5Broot-of-the-server%5D__bb1c7ff8._.js.map

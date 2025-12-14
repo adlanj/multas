@@ -1,0 +1,3 @@
+{
+  "/api/bases-pago/borrar/[id]/route": "app/api/bases-pago/borrar/[id]/route.js"
+}

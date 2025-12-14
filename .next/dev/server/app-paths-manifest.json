@@ -1,0 +1,9 @@
+{
+  "/api/bases-pago/listar/route": "app/api/bases-pago/listar/route.js",
+  "/api/plantillas/[id]/route": "app/api/plantillas/[id]/route.js",
+  "/api/plantillas/route": "app/api/plantillas/route.js",
+  "/api/usuarios/route": "app/api/usuarios/route.js",
+  "/gestion/base/page": "app/gestion/base/page.js",
+  "/gestion/multas/page": "app/gestion/multas/page.js",
+  "/gestion/usuarios/page": "app/gestion/usuarios/page.js"
+}

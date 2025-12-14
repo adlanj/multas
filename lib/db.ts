@@ -10,11 +10,14 @@ declare global {
   var pgPool: Pool | undefined;
 }
 
+if (!process.env.DATABASE_URL) {
+  throw new Error("DATABASE_URL is not defined");
+}
+
 const pool =
   global.pgPool ??
   new Pool({
     connectionString: process.env.DATABASE_URL,
-    ssl: { rejectUnauthorized: false },
     max: 5,
   });
 
@@ -25,12 +28,8 @@ if (process.env.NODE_ENV !== "production") {
 export const query = <T extends QueryResultRow = any>(
   text: string,
   params?: any[]
-): Promise<QueryResult<T>> => {
-  return pool.query(text, params);
-};
+): Promise<QueryResult<T>> => pool.query(text, params);
 
-export const getClient = (): Promise<PoolClient> => {
-  return pool.connect();
-};
+export const getClient = (): Promise<PoolClient> => pool.connect();
 
 export const poolInstance = pool;

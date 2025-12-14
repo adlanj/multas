@@ -2,7 +2,6 @@
   "/_global-error/page": "app/_global-error/page.js",
   "/_not-found/page": "app/_not-found/page.js",
   "/admin/page": "app/admin/page.js",
-  "/api/auth/login-asesor/route": "app/api/auth/login-asesor/route.js",
   "/api/bases-pago/borrar-todo/route": "app/api/bases-pago/borrar-todo/route.js",
   "/api/bases-pago/borrar/[id]/route": "app/api/bases-pago/borrar/[id]/route.js",
   "/api/bases-pago/listar/route": "app/api/bases-pago/listar/route.js",

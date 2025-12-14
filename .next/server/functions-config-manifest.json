@@ -2,13 +2,14 @@
   "version": 1,
   "functions": {
     "/api/bases-pago/borrar-todo": {},
-    "/api/bases-pago/listar": {},
-    "/api/bases-pago/borrar/[id]": {},
     "/api/bases-pago/ver/[id]": {},
-    "/api/plantillas": {},
+    "/api/login": {},
     "/api/plantillas-temporales/[token]": {},
-    "/api/plantillas-temporales": {},
     "/api/plantillas/[id]": {},
+    "/api/plantillas": {},
+    "/api/plantillas-temporales": {},
+    "/api/bases-pago/borrar/[id]": {},
+    "/api/bases-pago/listar": {},
     "/enlace-temporal/[token]": {}
   }
 }

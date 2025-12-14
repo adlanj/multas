@@ -127,12 +127,6 @@
       "namedRegex": "^/admin(?:/)?$"
     },
     {
-      "page": "/api/auth/login-asesor",
-      "regex": "^/api/auth/login\\-asesor(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/api/auth/login\\-asesor(?:/)?$"
-    },
-    {
       "page": "/api/bases-pago/borrar-todo",
       "regex": "^/api/bases\\-pago/borrar\\-todo(?:/)?$",
       "routeKeys": {},

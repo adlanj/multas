@@ -1,4 +1,6 @@
 // new/multas/app/api/login/route.ts
+export const runtime = "nodejs";
+
 import { NextRequest, NextResponse } from "next/server";
 import { query } from "@/lib/db";
 import { comparePassword, signToken } from "@/lib/auth";
@@ -49,13 +51,12 @@ export async function POST(req: NextRequest) {
       },
     });
 
-    // COOKIE JWT
     res.cookies.set("token", token, {
       httpOnly: true,
       secure: process.env.NODE_ENV === "production",
       sameSite: "strict",
       path: "/",
-      maxAge: 60 * 60 * 24, // 24 horas
+      maxAge: 60 * 60 * 24,
     });
 
     return res;

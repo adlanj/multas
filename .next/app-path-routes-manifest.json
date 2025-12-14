@@ -2,7 +2,6 @@
   "/_global-error/page": "/_global-error",
   "/_not-found/page": "/_not-found",
   "/admin/page": "/admin",
-  "/api/auth/login-asesor/route": "/api/auth/login-asesor",
   "/api/bases-pago/borrar-todo/route": "/api/bases-pago/borrar-todo",
   "/api/bases-pago/borrar/[id]/route": "/api/bases-pago/borrar/[id]",
   "/api/bases-pago/listar/route": "/api/bases-pago/listar",

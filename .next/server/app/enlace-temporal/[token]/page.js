@@ -1,5 +1,5 @@
 var R=require("../../../chunks/ssr/[turbopack]_runtime.js")("server/app/enlace-temporal/[token]/page.js")
-R.c("server/chunks/ssr/[root-of-the-server]__377b5604._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__19c9698c._.js")
 R.c("server/chunks/ssr/multas_multas_ab1617e2._.js")
 R.c("server/chunks/ssr/db6c6_next_dist_998748c0._.js")
 R.c("server/chunks/ssr/multas_multas_93104bb9._.js")
